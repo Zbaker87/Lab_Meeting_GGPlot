@@ -37,3 +37,15 @@ ggplot(data=iris,aes(x=Sepal.Length,y=Sepal.Width)) +   #build the (blank) base 
 #               https://ggplot2.tidyverse.org/
 
 #### 3 | additional suggested packages ####
+install.packages("dplyr", "tidyr") #used for data manipulation, the first helps
+#by providing specialized functions for things like summarizing and subsetting
+# data sets while the secon adds a way to augment layouts of data using basic 
+# functions defined by "tidyverse"
+
+install.packages("R Markdown") # enables better workflow and near seamless transitions
+# between data sets and visualiztion 
+
+#There are a near endless number of packages to download and utilize that could 
+# come in handy but this collection provides a good start with the primary utilization of 
+# R in research. If you are working with time scales, maps, or even trying to analyze high value 
+# code chunks, there is a package for it. 
